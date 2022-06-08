@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="4" failures="1" name="in.co.gorest.gorestinfo.UsersCRUDTest" skipped="0" tests="10" time="15.95" timestamp="2022-06-08T10:24:16.752+01:00[Europe/London]"><testcase classname="in.co.gorest.gorestinfo.UsersCRUDTest" name="This will create a new User"/><testcase classname="in.co.gorest.gorestinfo.UsersCRUDTest" name="This will Fetch user by ID"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+in.co.gorest.gorestinfo.UsersCRUDTest.test002(UsersCRUDTest.java:43)&#13;
+</system-err></testcase><testcase classname="in.co.gorest.gorestinfo.UsersCRUDTest" name="This will Fetch user by ID"/><testcase classname="in.co.gorest.gorestinfo.UsersCRUDTest" name="This will Delete user by ID"/><testcase classname="in.co.gorest.gorestinfo.UsersCRUDTest" name="1. This will Verify if Total record is 20"/><testcase classname="in.co.gorest.gorestinfo.UsersCRUDTest" name="2.id 3838 has name =Chaturbhuj Nehru DVM"><error message="Index: 0, Size: 0" type="java.lang.IndexOutOfBoundsException">Index: 0, Size: 0</error><system-err>Index: 0, Size: 0&#13;
+in.co.gorest.gorestinfo.UsersCRUDTest.test006(UsersCRUDTest.java:82)&#13;
+</system-err></testcase><testcase classname="in.co.gorest.gorestinfo.UsersCRUDTest" name="3. id 3838 has email =dvm_chaturbhuj_nehru@pagac.name"><error message="Index: 0, Size: 0" type="java.lang.IndexOutOfBoundsException">Index: 0, Size: 0</error><system-err>Index: 0, Size: 0&#13;
+in.co.gorest.gorestinfo.UsersCRUDTest.test007(UsersCRUDTest.java:90)&#13;
+</system-err></testcase><testcase classname="in.co.gorest.gorestinfo.UsersCRUDTest" name="4.All ID has status =active"/><testcase classname="in.co.gorest.gorestinfo.UsersCRUDTest" name="5.id 3829 has gender =female"><error message="Index: 0, Size: 0" type="java.lang.IndexOutOfBoundsException">Index: 0, Size: 0</error><system-err>Index: 0, Size: 0&#13;
+in.co.gorest.gorestinfo.UsersCRUDTest.test009(UsersCRUDTest.java:110)&#13;
+</system-err></testcase><testcase classname="in.co.gorest.gorestinfo.UsersCRUDTest" name="6.id 3819 has gender =male"><error message="Index: 0, Size: 0" type="java.lang.IndexOutOfBoundsException">Index: 0, Size: 0</error><system-err>Index: 0, Size: 0&#13;
+in.co.gorest.gorestinfo.UsersCRUDTest.test010(UsersCRUDTest.java:117)&#13;
+</system-err></testcase></testsuite>
